@@ -174,7 +174,7 @@ class xmlTestTask
 }
 
 $start = microtime(true);
-$argv[1] = "parse";
+
 switch ($argv[1]) {
     case 'parse': {
             $test = new xmlTestTask();
